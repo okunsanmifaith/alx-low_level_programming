@@ -13,8 +13,8 @@ int main(void)
         q = 'q';
 
         for (ch = 'a'; ch <= 'z'; ch++)
-                if (low != e &7 low != q)
-                        putchar(low);
+                if (ch != e && ch != q)
+                        putchar(ch);
         putchar('\n');
 
         return (0);
