@@ -10,10 +10,8 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-	{
-		priintf("%d", i);
-	}
-	printf("\n");
+		putchar(i);
+	putchar('\n');
 
 	return (0);
 }
