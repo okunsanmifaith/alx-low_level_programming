@@ -1,4 +1,5 @@
 #include <stdio>
+
 /**
  * main - Entry point
  *
@@ -6,11 +7,13 @@
  */
 int main(void)
 {
-	int num;
-	
-	for (num = 0; num < 10; num++)
-		printf("%i", num);
-	printf("\n");
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		printf("%i, i);
+	}
+	printf('\n");
 
 	return (0);
 }
