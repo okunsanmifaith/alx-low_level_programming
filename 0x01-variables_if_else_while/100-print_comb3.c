@@ -6,21 +6,23 @@
  */
 int main(void)
 {
-	int d;
+	int d, i;
 
-	for (d = 0; d < 90; d++)
+	for (d = 0; d < 9; d++)
 	{
-		for ()
+		for (i = d +1; i < 10; i++)
 		{
 			putchar((d / 10) + '0');
 			putchar((d % 10) + '0');
-		}
-		if (d != 89)
-		{
+			
+			if (d == 8 && i == 9)
+			continue;
+
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
