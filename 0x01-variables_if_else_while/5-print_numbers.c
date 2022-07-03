@@ -1,5 +1,4 @@
 #include <stdio>
-
 /**
  * main - Entry point
  *
@@ -8,8 +7,10 @@
 int main(void)
 {
 	int num;
-
+	
 	for (num = 0; num < 10; num++)
-		printf("single digit number are: %d\n, num);
+		printf("%i", num);
+	printf("\n");
+
 	return (0);
 }
