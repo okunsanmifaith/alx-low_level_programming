@@ -7,8 +7,11 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
+	char i;
+	int j;
 
-	for (i = 1; i <= 10; _putchar("abcdefghijklmnopqrstuvwxyz\n", i++));
+	for (i = 1; i <= 10; i++)
+		for (j = 0; j < 10; j++)
+			_putchar(i);
 	_putchar(i);
 }
