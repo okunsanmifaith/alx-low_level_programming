@@ -9,6 +9,6 @@ void print_alphabet_x10(void)
 {
 	int i;
 
-	for (i = 1; i <= 10; printf("abcdefghijklmnopqrstuvwxyz\n", i++));
+	for (i = 1; i <= 10; _putchar("abcdefghijklmnopqrstuvwxyz\n", i++));
 	_putchar(i);
 }
