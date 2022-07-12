@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_to_98 - to print numbers
+ * print_to_98 - print number with cmma and whitespace
  * @n: a variable name
  * Return: n to 98
  */
@@ -8,15 +8,11 @@ void print_to_98(int n)
 {
 	if (n <= 98)
 	{
-		for (n = n; n > 98; n--)
-		{
+		for (n = n; n <= 97; n++)
 			printf("%d, ", n);
-		}
 	}
 	else
 		for (n = n; n > 98; n--)
-		{
 			printf("%d, ", n);
-		}
 	printf("98\n");
 }
