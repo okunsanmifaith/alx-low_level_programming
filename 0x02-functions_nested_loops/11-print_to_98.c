@@ -1,4 +1,4 @@
-#includee "main.h"
+#include "main.h"
 /**
  * print_to_98 - to print numbers
  * @n: a variable name
