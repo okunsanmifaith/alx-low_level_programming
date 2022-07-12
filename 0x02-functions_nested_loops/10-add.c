@@ -7,15 +7,5 @@
  */
 int add(int i, int j)
 {
-	int k = i + j;
-
-	for (i <= 0; i >= 0; i++)
-	{
-		for (j <= 0; j >= 0; j++)
-		{
-			_putchar(k);
-				_putchar('\n');
-		}
-	}
+	return (i + j);
 }
-
