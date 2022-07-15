@@ -4,9 +4,9 @@
  *
  * Return: 0(success)
  */
-void natural.c(int)
+int main(void)
 {
-	int n,i;
+	int n, i;
 
 	for (n = 0; n < 1024; n++)
 	{
