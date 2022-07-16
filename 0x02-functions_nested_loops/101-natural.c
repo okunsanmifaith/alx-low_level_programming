@@ -15,5 +15,5 @@ int main(void)
 			i += n;
 		}
 	}
-	_putchar('\n');
+	printf("%d\n", i);
 }
