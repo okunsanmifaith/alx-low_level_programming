@@ -4,13 +4,16 @@
 /**
  * _strlen - function for length of string
  * @s: character name
- * Return: nothing
+ * Return: success
  */
 int _strlen(char *s)
 {
-	int len;
-
-	len = _strlen(s);
-	printf("%d\n", len);
-	return (0);
+	int u;
+	
+	u = 0;
+	while (s[u] != '\0')
+	{
+		u++
+	}
+	return (u);
 }
