@@ -16,6 +16,4 @@ void swap_int(int *a, int *b)
 	*b = *a - *b;
 	*a = *a - *b;
 	printf("\n*a = %d, *b = %d", *a, *b);
-
-	return (swap_int);
 }
