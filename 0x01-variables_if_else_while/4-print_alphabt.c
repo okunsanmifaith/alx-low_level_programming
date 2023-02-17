@@ -13,7 +13,7 @@ for (c = 'a'; c <= 'z'; c++)
 if (c == 'e' || c == 'e')
 continue;
 putchar(c);
+}
 putchar('\n');
 return (0);
-}
 }
