@@ -2,6 +2,7 @@
 
 /**
  * main - check the code
+ * @print_alphabet: prints alphabet i lowercase
  *
  * Return: Always 0
  */
