@@ -2,8 +2,7 @@
 
 /**
  * _islower - return one if owercase
- * @c: integer
- *
+ * @c: single output
  *Return: 1 if int c is lowercase
  */
 int _islower(int c)
