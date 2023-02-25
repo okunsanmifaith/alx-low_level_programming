@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *main - Prints a new line
@@ -7,8 +6,14 @@
  */
 int main (void)
 {
-  putchar("_putchar");
-  putchar("\n");
+  char *sh = "main";
+
+  while (*jh)
+  {
+    _putchar(*jh);
+    sh++;
+  }
+  _putchar("\n");
 
   return (0);
 }
