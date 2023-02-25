@@ -10,10 +10,10 @@ char *jh = "main";
 
 while (*jh)
 {
-_putchar(*jh);
+putchar(*jh);
 jh++;
 }
-_putchar('\n');
+putchar('\n');
 
 return (0);
 }
