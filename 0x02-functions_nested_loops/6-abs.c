@@ -7,5 +7,12 @@
  */
 int _abs(int c)
 {
-return (abs(c));
+if (c >= 0)
+{
+n = n;
+}
+else
+{
+n = n * -1;
+}
 }
