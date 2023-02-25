@@ -4,7 +4,7 @@
  * _islower - return one if owercase
  * @c: integer
  *
- *Return: Always 0
+ *Return: 1 if int c is lowercase
  */
 int _islower(int c)
 {
