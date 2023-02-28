@@ -1,0 +1,14 @@
+#include "main.h"
+
+/**
+ *_strlen - print length of a string
+ *@s : a character
+ *@length: length of string
+ **/
+int _strlen(char *s)
+{
+int length;
+length = _strlen(*s);
+
+return (length);
+}
