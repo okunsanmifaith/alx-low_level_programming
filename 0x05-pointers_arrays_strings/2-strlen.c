@@ -4,7 +4,7 @@
  *_strlen - Print length of a string
  *@s : a character
  *Rrturn: length of string s
- **/
+ */
 int _strlen(char *s)
 {
 int x = 0;
