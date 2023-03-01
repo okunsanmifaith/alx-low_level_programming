@@ -19,6 +19,5 @@ for (i = 0; i < c; i += 2)
 {
 putchar (*(str + i));
 }
-}
 putchar ('\n');
 }
