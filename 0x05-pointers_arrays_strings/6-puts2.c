@@ -1,19 +1,24 @@
 #include "main.h"
 /**
  *puts2 - prints every other character
- *@str: strings character
+ *@str: pointer character
  *
  *Return: void
  */
 void puts2(char *str)
 {
-int i;
-char s[i];
+int i, c;
 
-for (int i = 0; i < strlen(str); i+=2)
+i = 0;
+c = 0;
+while (str[i++])
 {
-putchar (str[i]);
-s[i/2] = str[i];
+c++;
 }
-return 0;
+for (i = 0; i < c; i += 2)
+{
+putchar (*(str + i));
+}
+}
+putchar ('\n');
 }
