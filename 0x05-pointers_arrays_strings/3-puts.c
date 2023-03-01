@@ -2,16 +2,16 @@
 /**
  * _puts - Display string
  * @str: String
+ * Return: void
  */
-
 void _puts(char *str)
 {
 int a;
 
-while (*(str + a) != '\0')
+for (a = 0; str[a] != '\0'; a++)
 {
-putchar(*(str + a));
-a++;
+putchar(str[a]);
 }
 putchar('\n');
+return;
 }
