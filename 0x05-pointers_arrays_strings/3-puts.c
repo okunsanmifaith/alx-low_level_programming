@@ -11,7 +11,7 @@ int a;
 while (*(str + a) != '\0')
 {
 _putchar(*(str + a));
-a++
+a++;
 }
 _putchar('\n');
 }
