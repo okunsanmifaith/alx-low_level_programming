@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _puts - Display string
  * @str: String
