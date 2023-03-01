@@ -7,13 +7,13 @@
  */
 void rev_string(char *s)
 {
-int a, b;
+int b, a;
 char i[500];
 b = 0;
 a = 0;
 while (*(s + b))
 {
-*(a + b) = *(s + b);
+*(i + b) = *(s + b);
 b++;
 }
 b = b - 1;
