@@ -10,7 +10,7 @@ int a;
 
 for (a = 0; s[a] != '\0'; a++)
 {
-putchar(str[-a]);
+putchar(s[-a]);
 }
 putchar('\n');
 return;
