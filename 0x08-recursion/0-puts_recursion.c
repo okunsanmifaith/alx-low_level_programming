@@ -5,5 +5,5 @@
  */
 void _puts_recursion(char *s)
 {
-printf("%p\n", *s);
+printf("%c", *s);
 }
