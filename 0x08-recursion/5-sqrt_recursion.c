@@ -10,10 +10,11 @@ return (halp(n, 1));
 }
 /**
  *halp - function to solve square root
-@c: number to find square root
-*@i: incrementor
-*Return: If n does not have a natural square root, the function should return -1
-*/
+ *@c: number to find square root
+ *@i: incrementor
+ *Return: If n does not have a natural square root,
+ *the function should return -1
+ */
 int halp(int c, int i)
 {
 int square;
