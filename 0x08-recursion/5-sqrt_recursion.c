@@ -6,6 +6,8 @@
  */
 int _sqrt_recursion(int n)
 {
+int halp;
+  
 return (halp(n, 1));
 }
 /**
