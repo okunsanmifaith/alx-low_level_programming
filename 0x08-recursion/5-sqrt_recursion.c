@@ -5,11 +5,10 @@
  *Return: square root or -1 if not square root
  */
 int _sqrt_recursion(int n)
-{
-int halp;
-  
+{ 
 return (halp(n, 1));
 }
+
 /**
  *halp - function to solve square root
  *@c: number to find square root
