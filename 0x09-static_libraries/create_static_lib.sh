@@ -1,4 +1,4 @@
 #!/bin/bash
-gcc Wall -Werror -Wextra -c *.c
-ar rcs liball.a *.o
+gcc Wall -pendatic -Werror -Wextra -c *.c
+ar rc liball.a *.o
 ranlib lilall.a
