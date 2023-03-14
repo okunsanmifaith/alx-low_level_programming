@@ -9,18 +9,14 @@
  * your program should print Error, followed by a new line,
  * and return 1
  */
-int main(int argc, __attribute__((unused)) char *argv[])
+int main(int argc, char **argv)
 {
-int a, b, c;
+int c;
 
-if (argc > 1)
-{
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-c = a *b;
+c = (int) *(argv[1]) * (int) *(argv[2]);
 printf("%d", c);
-}
-else
+return (0);
+if (argc < 2)
 {
 printf("Error\n");
 return (1);
