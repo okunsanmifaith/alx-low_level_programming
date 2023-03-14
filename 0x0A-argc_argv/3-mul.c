@@ -18,7 +18,7 @@ if (argc > 1)
 a = atoi(argv[1]);
 b = atoi(argv[2]);
 c = a * b;
-printf("%d", c)
+printf("%d", c);
 }
 else
 {
