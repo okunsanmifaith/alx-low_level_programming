@@ -9,7 +9,7 @@
  * your program should print Error, followed by a new line,
  * and return 1
  */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 int a, b, c;
 
@@ -17,7 +17,7 @@ if (argc > 1)
 {
 a = atoi(argv[1]);
 b = atoi(argv[2]);
-c = a * b;
+c = a *b;
 printf("%d", c);
 }
 else
