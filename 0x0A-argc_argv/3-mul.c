@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 int c;
 
 c = (int) *(argv[1]) * (int) *(argv[2]);
-printf("%d", c);
+printf("%d\n", c);
 return (0);
 if (argc < 2)
 {
