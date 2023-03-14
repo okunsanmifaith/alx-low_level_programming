@@ -3,20 +3,21 @@
  *main -Entry point
  *@argc: Argument character
  *@argv: Argument vector
+ *@atoi: change char to int
  *Return: If the program does not receive two arguments,
  * your program should print Error, followed by a new line,
  * and return 1
  */
 int main(int argc, char **argv)
 {
-int c;
-
-c = (int) *(argv[1]) * (int) *(argv[2]);
-printf("%d\n", c);
-return (0);
-if (argc < 2)
+int p;
+  
+if (argc < 3)
 {
 printf("Error\n");
 return (1);
 }
+p = (int) *argv[1] * (int) *argv[2];
+printf("%d\n", p);
+return (0);
 }
