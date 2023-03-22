@@ -7,6 +7,6 @@
  */
 int _strlen(char *s)
 {
-printf("%d", strlen(s));
+printf("%hd", strlen(s));
 return 0;
 }
