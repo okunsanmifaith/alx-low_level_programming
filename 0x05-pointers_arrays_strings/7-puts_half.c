@@ -15,9 +15,12 @@ while (str[i++])
 {
 c++;
 }
-for (i = 0; i < c; i -= 1)
+for (i = 0; i < c; i += 1)
 {
 putchar (*(str + i));
+for (i = 3; i <= 6; i++)
+{
+putchar (*(str + 1));
 }
 putchar ('\n');
 }
