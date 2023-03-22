@@ -24,3 +24,4 @@ putchar (*(str + 1));
 }
 putchar ('\n');
 }
+}
