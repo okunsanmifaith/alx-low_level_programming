@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define FAITH(a, b)
 
 int main (void)
 {
