@@ -1,12 +1,11 @@
 #include <stdio.h>
-
 /**
- *main - Entry point
+ * main - print file name it was compiled from
  *
- *Return: file name
+ * Return: the name of the file
  */
 int main(void)
 {
-printf("file : %s\n", __FILE__);
-return (0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
