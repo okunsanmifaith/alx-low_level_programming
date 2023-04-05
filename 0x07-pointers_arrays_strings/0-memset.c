@@ -1,19 +1,23 @@
-#include <stdio.h>
-#include <string.h>
+#include "holberton.h"
 /**
- **_memset - A standard string function
- *@s: string character
- *@b: string character
- *@n: integer
- *Return: a pointer to the memory area s
- */
-char *_memset(char *s, char b, unsigned int n);
+ * _memcpy - this function cpy a buffer
+ * @dest: is a buffer that it contains in array
+ * @src: the new value to copy in the buffer
+ * @n: the number of bytes to be altered.
+(* a blank line
+* Description: this function set memory)?
+(* section header: the header of this function is holberton.h)*
+* Return: return char
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-  int i = 0;
+	int i;
 
-  for (int n > 0; i++)
-    {
-      s[i] = b;
-    }
-  return s;
+	for (i = 0; n > 0; i++, n--)
+	{
+
+		dest[i] = src[i];
+	}
+
+	return (dest);
 }
